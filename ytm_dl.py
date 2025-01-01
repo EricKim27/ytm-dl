@@ -25,8 +25,7 @@ def readconfs():
         
         return url, dir
 def sanitize_filename(filename: str) -> str:
-    valid_chars = f"-_.() {string.ascii_letters}{string.digits}"
-    return ''.join(c for c in filename if c in valid_chars)
+    return re.sub(r'[^\w\s-]', '', filename).strip()
 
 def convert_to_mp3(file_path: str) -> str:
     mp3_path = file_path.replace('.m4a', '.mp3')
