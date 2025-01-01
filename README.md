@@ -6,7 +6,7 @@ The downloaded file will have its album artwork(or the thumbnail of the video), 
 
 # How to use
 
-First, set your destination directory and your playlist URL by making a file called settings.conf in the code directory and then type in:
+First, set your destination directory and your playlist URL by making a file called settings.conf in the code directory and then typing in:
 
 ```
 TARGET <your target directory>
