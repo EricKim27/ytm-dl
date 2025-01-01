@@ -1,0 +1,5 @@
+pytubefix
+pydub
+ytmusicapi
+mutagen
+music_tag
